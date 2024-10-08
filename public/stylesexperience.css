@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'MN Khamin';
+    src: url('fonts/MN Khamin.ttf') format('truetype'); /* ปรับชื่อไฟล์ให้ตรงกับที่คุณใช้งาน */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background: #DEF9C4;
+    color: #ffffff;
+    padding: 0.5rem;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0.5rem;
+}
+
+nav ul li a {
+    color: #000000;
+
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style: disc inside;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+h1{
+    font-size: 50px;
+}
+main {
+    font-family: MN Khamin;
+    line-height: 1.6;
+    text-align: center;
+}
+.education-section {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.education-box {
+    border-bottom: 2px solid #007575;
+    padding: 15px;
+
+}
+.education-box h2 {
+    margin: 0;
+    color: #007575;
+}
+.school{
+    display: flex;
+    justify-content: center;
+    background-color: #468585;
+
+}
+.imageschool{
+    width: 250px;
+    height: auto;
+    padding: 4rem;
+}
+
+.container-training {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.image-training {
+    max-width: 600px;
+    height: auto;
+    margin-right: 100px; 
+    padding: 3rem ;
+}
+.text-training {
+    color: #000000;
+    font-size: 30px;
+    font-family: "MN Khamin";
+    
+}
+.text-training2 {
+    color: #000000;
+    font-size: 25px;
+}
+.ptraining{
+    display: flex;
+    justify-content: center;
+    background-color: #468585;
+}
+.ptraining1{
+    width: 250px;
+    height: auto;
+    padding: 4rem;
+}
+.ptraining2{
+    width: 250px;
+    height: auto;
+    padding: 4rem;
+}
+.teach{
+    width: 50%;
+    padding: 1rem;
+}
