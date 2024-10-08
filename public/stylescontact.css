@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background: #DEF9C4;
+    color: #ffffff;
+    padding: 0.5rem;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0.5rem;
+}
+
+nav ul li a {
+    color: #000000;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style: disc inside;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+main {
+    font-family: "MN Khamin" ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #468585;
+}
+.contact {
+    display: flex;
+    box-shadow: 0 0 10px rgba(1, 1, 1, 1);
+    background-color: #fff;
+}
+.image1 {
+    width: 50%;
+    height: auto;
+}
+
+.info-section {
+    width: 50%;
+    padding: 5px;
+}
+.contact-header {
+    background-color: #9CDBA6;
+    color: #000000;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 10px;
+}
+.contact-info img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
